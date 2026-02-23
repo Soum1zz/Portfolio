@@ -1,0 +1,9 @@
+.right-div{
+    padding: 1rem;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.right-div::-webkit-scrollbar {
+  display: none;
+}

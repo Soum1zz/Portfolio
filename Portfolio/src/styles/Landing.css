@@ -1,0 +1,179 @@
+.landing-wrapper{
+    width: 90vw;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    flex-direction: row;
+}
+.vert-sep{
+    height: 95vh;
+    width: 7px;
+    margin-left: 300px;
+    background: #000;
+}
+.hor-line{
+    width: 96%;
+    height: 5px;
+    background: #000;
+}
+.cv-div{
+    max-height: max-content;
+    margin: 0 auto;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    font-size: 20px;
+    font-weight: 800;
+    width: 300px;
+    height: 200px;
+    background: #ffa600;
+}
+
+.cv-div .arrow{
+    position: absolute;
+    font-size: 50px;
+    top: -1.5rem;
+
+}
+.cv-div:hover .arrow{
+    top: -2.5rem;
+    transition: 0.5s ease-in-out;
+}
+.cv-div a{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    color: #000;
+    text-decoration: none;
+}
+
+
+@media(max-width: 1024px){
+    
+    .left-div{
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+   
+    .right-div{
+        width: 100%;
+        margin-left: 0;
+        height: auto;
+        overflow: visible;
+
+    }
+    
+}
+@media (max-width: 768px) {
+    
+    .right-div{
+        margin: 0 auto;
+        
+    }
+    .landing-wrapper{
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .vert-sep,.hor-line{
+        display: none;
+    }
+    .sub-links {
+        width: 100%;
+        height: 50px;
+    }
+    .social-links{
+        display: none;
+    }
+    .hero-div {
+        margin: 0 auto;
+        padding-left: 1rem;
+        gap: 10rem;
+        margin-top: 3rem;
+        flex-direction: column;
+    }
+
+    .name {
+        font-size: 52px;
+        line-height: 50px;
+    }
+    .hori-line{
+        margin-top: 1rem;
+        height: 5px;
+    }
+    .text {
+        width: 100%;
+        font-size: 20px;
+        text-align: left;
+        line-height: 20px;
+    }
+
+    .hero-div img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        position: relative;
+    }
+    .hover-container{
+        margin: 0 auto;
+    }
+    .my-desc{
+        width: 80%;
+    }
+    .skill-sub{
+        width: 90%;
+    }
+    .contact{
+        width: 100%;
+    }
+    .proj-card{
+        width: 90%;
+    }
+    form {
+        width: 100%;
+        
+    }
+    form input{
+        width: 450px;
+        height: 10px;
+    }
+    form button{
+        height: 60px;
+        padding: 1rem;
+    }
+    .hamburger{
+        margin-top: 5rem;
+        font-weight: 500;
+        display: flex;
+        font-size: 40px;
+        cursor: pointer;
+    }
+    .nav-links {
+        display: flex;
+        font-size: 16px;
+        letter-spacing: 2px;
+        height: auto;
+        overflow: hidden;
+        max-height: 0;
+        opacity: 0;
+        transform: translateY(-10px);
+        transition: 
+            max-height 0.4s ease,
+            opacity 0.3s ease,
+            transform 0.3s ease
+    }
+    .nav-links.show{
+        max-height: 500px;
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

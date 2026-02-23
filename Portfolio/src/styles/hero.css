@@ -1,0 +1,54 @@
+.hero-div{
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    padding-left: 10rem;
+}
+.hori-line{
+    height: 8px;
+    width: 25%;
+    background: #000;
+}
+.bg-box{position: absolute;
+    width: 540px;
+    height: 400px;
+    background: #ffa600;
+    z-index: 1;
+}
+.img{
+    position: absolute;
+    display: 'block';
+    object-fit: cover;
+    z-index: 2;
+}
+.frame{
+    position: absolute;
+    z-index: 2;
+}
+.hover-container{ 
+    position: relative;
+    width: 40%;
+    max-height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+}
+.name{
+    font-Size:90px;
+    font-Weight:600;
+    line-height:100px;
+    margin-bottom:"20px";
+    }
+.text{
+    font-size:20px;
+    letter-spacing:2px;
+    line-height:"30px";
+    }
+.my-desc{
+    width:50%;
+}
+

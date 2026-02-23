@@ -1,0 +1,16 @@
+.skill-sub{
+    border: 4px solid black;
+    padding: 0.5rem;
+    width: 800px;
+}
+.skill-name{
+    display: flex;
+    background: #ffa600;
+    padding: 1rem;
+    color: white;
+    font-weight: 800;
+    justify-content: space-between;
+    align-items: center;
+    width: 0;
+    transition: width 5s ease-in-out;
+}
