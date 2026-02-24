@@ -123,6 +123,10 @@
         height: auto;
         position: relative;
     }
+    .hero-div.frame{
+        width: 50%;
+        height: 400px;
+    }
     .hover-container{
         margin: 0 auto;
     }
@@ -175,5 +179,28 @@
         max-height: 500px;
         opacity: 1;
         transform: translateY(0);
+    }
+    
+}
+@media(max-width:642px) {
+
+    .edu-sub{
+        height: fit-content;
+    }
+    .frame{
+        height: 420px;
+        width: 380px;
+    }
+    .bg-box{
+        height: 300px;
+        width: 400px;
+    }
+    .hero-div img{
+        width: 400px;
+    }
+    .cv-div{
+        margin-top: 12rem;
+        margin-bottom: 15rem;
+
     }
 }

@@ -36,8 +36,6 @@ export default function Hero() {
               transform: `translate(${transform.x / 3}px, ${transform.y / 3}px)`,
               transition: "transform 0.3s ease",
               border: "10px solid black",
-              width: "480px",
-              height: "550px",
               boxSizing: "border-box",
             }}
           ></div>
