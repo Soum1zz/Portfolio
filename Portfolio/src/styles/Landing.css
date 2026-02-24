@@ -56,7 +56,7 @@
 }
 
 
-@media(max-width: 1024px){
+@media(max-width: 1632px){
     
     .left-div{
         position: relative;
@@ -71,9 +71,6 @@
         overflow: visible;
 
     }
-    
-}
-@media (max-width: 1024px) {
     
     .right-div{
         margin: 0 auto;
