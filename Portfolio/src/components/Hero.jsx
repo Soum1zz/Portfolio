@@ -1,4 +1,4 @@
-import myImg from "../assets/my-img.jpeg";
+import myImg from "../assets/img_2.png";
 import "../styles/hero.css";
 import { useEffect, useState } from "react";
 
