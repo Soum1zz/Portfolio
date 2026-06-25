@@ -1,5 +1,5 @@
 import mercatoImg from '../assets/mercato-img.png'
-import chessifyImg from '../assets/chessify-img.png'
+import civ_con from '../assets/CivC_Conc.png'
 import studyImg from '../assets/study-pic.png'
 
 import '../styles/projects.css'
@@ -28,14 +28,14 @@ export default function Projects(){
             <div
             className='proj-card'
             >
-                <img src={chessifyImg} />
+                <img src={civ_con} />
                 <div className='hover-text'>
                     <h2
                     style={{fontWeight:800, fontSize:"60px"}}
-                    >Chessify</h2>
+                    >Civik Connect</h2>
                     <div
                     style={{letterSpacing:"3px"}}
-                    >Chess website created using react.</div>
+                    >Website to help people connect with NGOs to solve their problems.</div>
                 </div>
                 
             </div>

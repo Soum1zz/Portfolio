@@ -17,7 +17,9 @@
 }
 .proj-card img{
     width: 100%;
+    height: 300px;
     display: block;
+    object-fit: cover;
     transition: 0.5s ease;
 }
 .proj-card:hover img{
@@ -39,4 +41,13 @@
 }
 .proj-card:hover .hover-text{
     opacity: 1;
+}
+
+@media(max-width: 420px){
+    .hover-text{
+        font-size: 12px;
+    }
+    .hover-text h1{
+        font-size: 20px;
+    }
 }
