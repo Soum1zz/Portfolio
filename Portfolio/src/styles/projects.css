@@ -7,6 +7,11 @@
     gap: 3rem;
     font-size: 20px;
 }
+.hover-text h2{
+        font-Weight:800;
+        font-size: 60px
+
+}
 
 
 .proj-card{
@@ -47,7 +52,7 @@
     .hover-text{
         font-size: 12px;
     }
-    .hover-text h1{
-        font-size: 20px;
+    .hover-text h2{
+        font-size: 40px;
     }
 }

@@ -17,7 +17,6 @@ export default function Projects(){
                 <div className='hover-text'
                 >
                     <h2
-                    style={{fontWeight:800, fontSize:"60px"}}
                     >Mercato</h2>
                     <div
                     style={{letterSpacing:"3px"}}
@@ -31,7 +30,6 @@ export default function Projects(){
                 <img src={civ_con} />
                 <div className='hover-text'>
                     <h2
-                    style={{fontWeight:800, fontSize:"60px"}}
                     >Civik Connect</h2>
                     <div
                     style={{letterSpacing:"3px"}}
@@ -45,8 +43,7 @@ export default function Projects(){
                 <img src={studyImg} />
                 <div className='hover-text'>
                     <h2
-                    style={{fontWeight:800, fontSize:"60px"}}
-                    >Study Helper Extension</h2>
+                    >Study Helper </h2>
                     <div
                     style={{letterSpacing:"3px"}}
                     >Chrome extension for students to help them group videos by topics and keep notes </div>
